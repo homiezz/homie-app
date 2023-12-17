@@ -1,0 +1,219 @@
+@import url(https://db.onlinewebfonts.com/c/3135c98efb051f346203c2f2ed708638?family=Engravers+MT);
+
+@font-face {
+    font-family: "Engravers MT";
+    src: url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.eot");
+    src: url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/3135c98efb051f346203c2f2ed708638.svg#Engravers MT")format("svg");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+}
+
+.card {
+    background-color: #336654;
+    box-shadow: 0 4px 8px 0 #0b1b21; 
+    border-radius: 5px;
+    padding: 20px;
+    width: 25vw;
+    height: 15wh;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+}
+
+.card-title {
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+    color: #dcbc8d; 
+}
+
+.card-content {
+    font-size: 2vh;
+    font-family: "Arial", sans-serif;
+    color: #ffffff;
+}
+
+.team-member-row {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5vw; 
+    margin-right: 5vw; 
+}
+
+.full-width-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.problem-solution {
+    display: flex;
+}
+
+.problem-solution-card {
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    margin-left: 5vw; 
+    margin-right: 5vw; 
+}
+
+.problem-solution-card h2 {
+    font-weight: bold;
+    color: #336654;
+}
+
+.problem-title {
+    font-size: 7vh;
+    font-weight: bold;
+    color: #336654;
+}
+
+.problem-content {
+    font-size: 3vh;
+    color: #333333;
+}
+
+.vertical-line {
+    border-left: 1px solid #ccc;
+    margin: 0 20px;
+}
+
+.one-row-card {
+    margin-top: 30px;
+    color: #336654;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+}
+
+.one-row-title {
+    font-size: 7vh;
+    font-weight: bold;
+    color: #336654;
+    margin-bottom: 10px;
+}
+
+.one-row-content {
+    font-size: 3vh;
+    color: #333333;
+    margin-left: 5vw; 
+    margin-right: 5vw; 
+}
+
+.center-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.problem-solution {
+    display: flex;
+}
+
+.landing-card {
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    margin-left: 10vw; 
+    margin-right: 5vw; 
+}
+
+.landing-content {
+    font-size: 3vh;
+    color: #333333;
+}
+
+.homie-title {
+    font-size: 18vh;
+    font-family: "Engravers MT";
+    font-weight: bold;
+    color: #336654;
+}
+
+.homie-content {
+    font-size: 4vh;
+    color: #333333;
+    font-family: 'Abhaya Libre';
+}
+
+
+.landing-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.horizontal-line {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+    width: 100vw;
+}
+
+.bolder-horizontal-line {
+    border-top: 3px solid #ccc;
+    margin: 20px 0;
+    width: 100vw;
+}
+
+.bigger-one-row-title {
+    font-size: 10vh;
+    font-weight: bold;
+    color: #336654;
+    margin-bottom: 10px;
+}
+
+.little-title {
+    font-size: 3vh;
+    font-weight: bold;
+    color: #336654;
+    text-align: left !important;
+    margin-right: auto;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.left-align-list {
+    text-align: left !important;
+}
+
+#categorylist{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+#categorylist ul {
+    padding:0;
+	margin:0;
+	display: inline-block;
+    text-align: left !important;
+}
+
+#categorylist ul li {
+    text-align: left !important;
+}
