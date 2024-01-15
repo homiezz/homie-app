@@ -195,6 +195,16 @@ body {
     margin-right: auto;
     margin-left: 80px;
     margin-bottom: 10px;
+
+
+}.little-titleRed {
+    font-size: 2vh;
+    font-weight: bold;
+    color: #e06565;
+    text-align: left !important;
+    margin-right: auto;
+    margin-left: 80px;
+    margin-bottom: 10px;
 }
 
 .left-align-list {
